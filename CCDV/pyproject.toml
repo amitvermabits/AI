@@ -7,5 +7,6 @@ requires-python = ">=3.13"
 dependencies = [
     "anthropic>=2.10.0",
     "claude-agent-sdk>=0.2.184",
+    "psycopg[binary]>=3.3.9",
     "python-dotenv>=1.2.4",
 ]
